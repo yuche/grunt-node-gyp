@@ -8,7 +8,11 @@ install:
   - "npm install -g npm"
   - "npm install -g grunt-cli"
   - "npm install"
+  - "./node_modules/.bin/judge install $JUDGE_CASE --overwrite"
   - "./node_modules/.bin/node-gyp install"
+env:
+  - "JUDGE_CASE=node-gyp-0.13.x"
+  - "JUDGE_CASE=node-gyp-1.x"
 matrix:
   allow_failures:
     - node_js: "0.11"
