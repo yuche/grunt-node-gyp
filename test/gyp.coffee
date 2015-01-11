@@ -51,6 +51,9 @@ describe 'grunt-node-gyp', ->
 	# Set timeout to 120 seconds as compiling may take a long time.
 	@timeout (120 * 1000)
 
+	nodeGypPackageJson = require '../node_modules/node-gyp/package.json'
+	console.log "node-gyp v#{nodeGypPackageJson.version}"
+
 	describe 'configure', ->
 		it 'should configure a release build by default', (done) ->
 			linkBindingGyp()
