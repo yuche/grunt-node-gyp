@@ -41,6 +41,7 @@
 		"grunt-contrib-clean": "0.5.x",
 		"grunt-contrib-coffee": "0.10.x",
 		"grunt-mocha-cli": "1.0.x",
+		"judge": "0.1.x",
 		"proxyquire": "1.0.x"
 	},
 	"license": "BSD",
