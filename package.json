@@ -44,6 +44,14 @@
 		"judge": "0.1.x",
 		"proxyquire": "1.0.x"
 	},
+	"judge": {
+		"node-gyp-0.13.x": {
+			"node-gyp": "0.13.x"
+		},
+		"node-gyp-1.x": {
+			"node-gyp": "1.x"
+		}
+	},
 	"license": "BSD",
 	"engines": {
 		"node": ">=0.8.0",
