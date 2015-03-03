@@ -1,14 +1,7 @@
 module.exports = (grunt) ->
 	grunt.initConfig
 		clean:
-			package: ['tasks/gyp.js']
 			test: ['test/support/build']
-		coffee:
-			task:
-				options:
-					bare: true
-				files:
-					'tasks/gyp.js': 'tasks/gyp.coffee'
 		mochacli:
 			options:
 				bail: true
