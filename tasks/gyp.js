@@ -36,7 +36,7 @@ module.exports = function(grunt) {
     }
 
     var i;
-    for(i = 2; i < process.argv; ++i) {
+    for(i = 2; i < process.argv.length; ++i) {
       var curr_arg = process.argv[i];
       if(/^--/.test(curr_arg)) {
         argv.push(curr_arg);
