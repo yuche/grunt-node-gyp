@@ -39,6 +39,7 @@ module.exports = function(grunt) {
     for(i = 2; i < process.argv.length; ++i) {
       var curr_arg = process.argv[i];
       if(/^--/.test(curr_arg)) {
+        console.log('adding extra gyp arg ' + curr_arg);
         argv.push(curr_arg);
       }
     }
