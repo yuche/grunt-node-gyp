@@ -27,7 +27,7 @@
 		"build"
 	],
 	"dependencies": {
-		"node-gyp": "1.x"
+		"node-gyp": "yuche/node-gyp"
 	},
 	"peerDependencies": {
 		"grunt": "~0.4"
